@@ -1,0 +1,114 @@
+/* src/pages/Education.css */
+.education {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .education h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .education-timeline {
+    margin-bottom: 3rem;
+  }
+  
+  .education-item {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .education-year {
+    flex: 0 0 100px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0366d6;
+    padding-top: 0.5rem;
+  }
+  
+  .education-content {
+    flex: 1;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .education-content h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-content h3 {
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-content p {
+    color: #0366d6;
+    font-weight: 600;
+  }
+  
+  .education-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .internships, .certifications, .achievements {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .internships h2, .certifications h2, .achievements h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #0366d6;
+    padding-bottom: 0.5rem;
+  }
+  
+  .internship-item h3 {
+    color: #333;
+    margin-bottom: 0.25rem;
+  }
+  
+  .internship-item h4 {
+    color: #0366d6;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  
+  .internship-duration {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 0.75rem;
+  }
+  
+  .certification-list, .achievement-list {
+    padding-left: 1.5rem;
+  }
+  
+  .certification-list li, .achievement-list li {
+    margin-bottom: 0.75rem;
+    position: relative;
+  }
+  
+  @media (max-width: 768px) {
+    .education-item {
+      flex-direction: column;
+    }
+    
+    .education-year {
+      margin-bottom: 0.5rem;
+    }
+    
+    .education-sections {
+      grid-template-columns: 1fr;
+    }
+  }
