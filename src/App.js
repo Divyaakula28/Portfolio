@@ -1,5 +1,4 @@
-import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -11,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio">   {/* Add basename */}
       <div className="App">
         <Header />
         <main>
@@ -28,4 +27,6 @@ function App() {
     </Router>
   );
 }
+
 export default App;
+
