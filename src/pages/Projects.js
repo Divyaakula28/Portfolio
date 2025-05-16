@@ -7,28 +7,35 @@ const Experience = () => {
   
   const projects = [
     {
-      id: 1,
+      id: 3,
       title: "SEM Results Searcher",
       category: "Web Development",
       tech: "Django, Python, HTML,CSS,JavaScript",
       description: "A web application to search and display semester examination results."
     },
     {
-      id: 2,
+      id: 4,
       title: "EAMCET College Search",
       category: "Web Development",
       tech: "Django, Python, HTML,CSS,JavaScript",
       description: "A web application to search colleges based on EAMCET scores and preferences."
     },
     {
-      id: 3,
+      id: 5,
       title: "TV Channel Schedule",
       category: "Web Development",
       tech: "Django, Python, API, HTML,CSS,JavaScript",
       description: "A web application displaying TV channel schedules and program information."
     },
     {
-      id: 4,
+      id: 2,
+      title: "attendance App",
+      category: "Web Development",
+      tech: "ReactJS, Html,Css,JavaScript",
+      description: "An interactive application with filtering and visualization features."
+    },
+    {
+      id: 1,
       title: "Magic Table",
       category: "Web Development",
       tech: "ReactJS, Html,Css,JavaScript",
@@ -95,10 +102,6 @@ const Experience = () => {
               <div className="project-description">
                 <h4>Description</h4>
                 <p>{project.description}</p>
-              </div>
-              <div className="project-actions">
-                <button className="action-button primary">View Demo</button>
-                <button className="action-button secondary">Source Code</button>
               </div>
             </div>
           </div>
